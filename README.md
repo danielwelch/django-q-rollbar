@@ -1,6 +1,3 @@
-### Note
-This is a proposed [Django Q](https://github.com/Koed00/django-q/) plugin intended to serve as an accompaniment to the changes in Django Q proposed in [this fork](https://github.com/danielwelch/django-q/tree/error-reporter). This package does nothing until those changes are incorporated.
-
 # django-q-rollbar
 A [Django Q](https://github.com/Koed00/django-q/) Error Reporter plugin adding [Rollbar](https://rollbar.com/) support.
 
@@ -10,6 +7,8 @@ This plugin is intended to be included with Django Q as [setuptools extra](https
 `$ pip install django-q[rollbar]`
 
 Or add `django-q[rollbar]` to `requirements.txt`.
+
+> This plugin requires Django Q version 0.8.1 or greater. Earlier versions of Django Q can incorporate rollbar support via the `rollbar` key in the `Q_CLUSTER` settings dictionary.
 
 ### Usage
 Configure Rollbar via the Django Q `Q_CLUSTER` dictionary in your Django project's `settings.py`. It is important that the `rollbar` key be set in the `error_reporter` dictionary, as this name aligns with the project's entry point for this plugin.
