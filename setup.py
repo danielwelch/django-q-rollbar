@@ -16,6 +16,7 @@ setup(
     author_email='dwelch2102@gmail.com',
     keywords='django distributed task queue worker scheduler cron redis disque ironmq sqs orm mongodb multiprocessing rollbar',
     packages=['django_q_rollbar'],
+    install_requires=['rollbar>=0.14.0'],
     url='https://django-q.readthedocs.org',
     license='MIT',
     description='A Rollbar support plugin for Django Q',
