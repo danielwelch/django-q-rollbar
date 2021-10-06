@@ -11,7 +11,7 @@ except ImportError:
 
 setup(
     name='django-q-rollbar',
-    version='0.1.2',
+    version='1.3.0',
     author='Daniel Welch',
     author_email='dwelch2102@gmail.com',
     keywords='django distributed task queue worker scheduler cron redis disque ironmq sqs orm mongodb multiprocessing rollbar',
