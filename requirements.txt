@@ -1,1 +1,1 @@
-rollbar==0.13.2
+rollbar>=0.13.2
