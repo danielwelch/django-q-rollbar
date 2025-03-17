@@ -1,1 +1,2 @@
-rollbar>=0.16.2
+rollbar>=1.0.0
+

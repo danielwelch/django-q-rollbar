@@ -1,6 +1,10 @@
 # django-q-rollbar
 A [Django Q](https://github.com/Koed00/django-q/) Error Reporter plugin adding [Rollbar](https://rollbar.com/) support.
 
+# Upgraded to rollbar > 1.0.0
+
+# Will no longer support python2 due to rollbar dep.
+
 ### Installation
 This plugin is intended to be included with Django Q as [setuptools extra](https://setuptools.readthedocs.io/en/latest/setuptools.html#declaring-extras-optional-features-with-their-own-dependencies).
 
