@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-q-rollbar"
+dynamic = ["version"]
+description = "A Rollbar support plugin for Django Q"
+readme = "README.md"
+authors = [
+    {name = "Daniel Welch", email = "dwelch2102@gmail.com"}
+]
+license = "MIT AND (Apache-2.0 OR BSD-2-Clause)"
+keywords = [
+    "django",
+    "distributed",
+    "task",
+    "queue",
+    "worker",
+    "scheduler",
+    "cron",
+    "redis",
+    "disque",
+    "ironmq",
+    "sqs",
+    "orm",
+    "mongodb",
+    "multiprocessing",
+    "rollbar"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "rollbar>=1.0.0",
+]
+
+[project.urls]
+Documentation = "https://django-q.readthedocs.org"
+
+[tool.hatch.version]
+source = "vcs"
